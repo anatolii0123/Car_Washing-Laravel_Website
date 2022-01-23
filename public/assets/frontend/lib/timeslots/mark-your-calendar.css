@@ -1,0 +1,149 @@
+
+#myc-container {
+    width: inherit;
+}
+
+#myc-nav-container {
+    margin-bottom: 15px;
+    width: inherit;
+}
+
+#myc-current-month-year-container {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: capitalize;
+    vertical-align: top;
+    width: 68%;
+}
+
+#myc-prev-week-container {
+    display: inline-block;
+    width: 15%;
+}
+
+#myc-next-week-container {
+    display: inline-block;
+    width: 15%;
+}
+
+#myc-prev-week {
+    border: 1px solid #e0e0e0;
+    border-radius: 80px;
+    color: #e0e0e0;
+    cursor: pointer;
+    float: left;
+    font-size: 1.6em;
+    font-weight: lighter;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+#myc-next-week {
+    border: 1px solid #e0e0e0;
+    border-radius: 80px;
+    color: #e0e0e0;
+    cursor: pointer;
+    float: right;
+    font-size: 1.6em;
+    font-weight: lighter;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+}
+
+#myc-prev-week:hover, #myc-next-week:hover {
+    border: 1px solid #bdbdbd;
+    color: #bdbdbd;
+}
+
+#myc-week-container {
+    border: 1px solid #e0e0e0;
+}
+
+.myc-date-header {
+    border-right: 1px solid #e0e0e0;
+    display: inline-block;
+    min-height: 50px;
+    padding: 15px;
+    vertical-align: top;
+    width: 13.77%;
+}
+
+.myc-date-header:last-of-type {
+    border-right: none;
+    width: 13%;
+}
+
+#myc-available-time-container {
+    border-top: 1px solid #e0e0e0;
+    min-height: 150px;
+}
+
+.myc-day-time-container {
+    /*border-right: 1px solid #e0e0e0;*/
+    display: inline-block;
+    height: 100%;
+    padding: 15px 15px 15px 15px;
+    vertical-align: top;
+    width: 13.77%;
+}
+
+.myc-day-time-container:first-of-type {
+    padding-left: 15px;
+}
+
+.myc-day-time-container:last-of-type {
+    border-right: none;
+    width: 13%;
+}
+
+.myc-date-number {
+    float: left;
+    width: 47px;
+    height: 47px;
+    font-size: 24px !important;
+    line-height: 43px !important;
+    border-width: 1px;
+    color: #223242 !important;
+    text-align: center;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: #E2E6E7;
+}
+
+.myc-date-display {
+    float: right;
+    text-transform: capitalize;
+}
+
+.myc-available-time {
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 0px 10px 0px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-radius: 999px;
+    color: #4a5f73 !important;
+    border-color: #E2E6E7;
+    text-align: center;
+    text-decoration: none;
+}
+
+.myc-available-time.selected, .myc-available-time:hover {
+    background-color: #1ABC9C;
+    color: white !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .myc-date-header, .myc-day-time-container {
+        width: 13.5%;
+    }
+    /*.myc-date-header:last-of-type, .myc-day-time-container:last-of-type {
+        width: 12%;
+    }*/
+}

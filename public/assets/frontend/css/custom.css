@@ -1,0 +1,31 @@
+.cbs-vehicle-list li.active{
+  background: #1ABC9C;
+  color: white !important;
+}
+.cbs-vehicle-list li.active .cbs-vehicle-icon {
+  color: white;
+}
+
+.cbs-service-list .cbs-button.active {
+  background: #1ABC9C;
+  color: white;
+}
+
+.cbs-pesubox-list {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.cbs-pesubox-list li {
+  margin: 0 10px;
+}
+.cbs-pesubox-list .cbs-button.active {
+  background: #1ABC9C;
+  color: white;
+}
+
+#calendar table tr.cbs-calendar-data td li.disable a {
+  background-color: #e36565;
+  color: white;
+  cursor: no-drop;
+}

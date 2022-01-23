@@ -1,0 +1,30 @@
+<?php
+     return [
+          'vehicle_icons' => [
+                '4x4',
+                'bicycle',
+                'boat',
+                'bus',
+                'car-mid-size',
+                'caravan',
+                'double-decker',
+                'heavy-equipment',
+                'jetski',
+                'limousine',
+                'midibus',
+                'mini-car',
+                'minibus',
+                'minivan',
+                'motorcycle',
+                'pickup',
+                'small-car',
+                'station-wagon',
+                'suv',
+                'trailer',
+                'truck-large',
+                'truck-mid-size',
+                'truck',
+                'van',
+          ]
+     ];
+?>
